@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Book Your Event</h1>
+    <form action="book.php" method="POST">
+      <label>Name</label>
+      <input type="text" name="name" required>
+
+      <label>Email</label>
+      <input type="email" name="email" required>
+
+      <label>Select Event</label>
+      <select name="event_name" required>
+        <option value="">-- Choose an event --</option>
+        <option value="Music Fest 2025">Music Fest 2025</option>
+        <option value="Startup Pitch Day">Startup Pitch Day</option>
+        <option value="Coding Bootcamp">Coding Bootcamp</option>
+      </select>
+
+      <button type="submit">Book Now</button>
+    </form>
+
+    <a href="view_bookings.php">View All Bookings</a>
+  </div>
+</body>
+</html>
