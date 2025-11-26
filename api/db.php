@@ -11,7 +11,7 @@ if (session_status() === PHP_SESSION_NONE) {
 
 // Database credentials
 $host = 'localhost';
-$db   = 'quiz_portal';
+$db   = 'quiz_portal1';
 $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';
